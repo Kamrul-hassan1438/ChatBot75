@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello :)"]
+    },
+     {
+      "tag": "name",
+      "patterns": ["name", "call you"],
+      "responses": ["My name is AgronomoBot"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help", "Assistance", "What can you do?"],
+      "responses": ["I can assist you in choosing the best crops based on various factors. Please provide information on soil pH, weather conditions, government schemes, market prices, and fertilizer usage."]
+    },
+    {
+      "tag": "soil_ph",
+      "patterns": ["Soil pH", "pH level", "Acidity"],
+      "responses": ["Sure, please provide the current pH level of your soil."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["Weather conditions", "Climate", "Temperature"],
+      "responses": ["Tell me about the current weather conditions in your region."]
+    },
+    {
+      "tag": "government_schemes",
+      "patterns": ["Government schemes", "Subsidies", "Agricultural programs"],
+      "responses": ["Are you aware of any specific government schemes or subsidies available for farmers in your area?"]
+    },
+    {
+      "tag": "market_prices",
+      "patterns": ["Market prices", "Crop prices", "Commodity prices"],
+      "responses": ["Provide information about the current market prices of crops in your locality."]
+    },
+    {
+      "tag": "fertilizer_usage",
+      "patterns": ["Fertilizer usage", "Fertilizer recommendations", "Nutrient management"],
+      "responses": ["Let me know the type and quantity of fertilizers you are currently using or planning to use."]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": ["Best crops", "Crop recommendation", "What to plant"],
+      "responses": ["Once you provide information on soil pH, weather conditions, government schemes, market prices, and fertilizer usage, I can suggest the best crops for your farm."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you later"],
+      "responses": ["Goodbye! If you have more questions, feel free to ask."]
+    },
+     {
+      "tag": "owner",
+      "patterns": ["Owner", "your owner ", "Ur owner","Owned by"," who made u"],
+      "responses": ["Noob shit Kamrul Hassan"]
+    }
+  ]
+}
